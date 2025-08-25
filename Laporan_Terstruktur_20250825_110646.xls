@@ -1,0 +1,954 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+        .header { text-align: center; margin-bottom: 30px; }
+        .title { font-size: 18pt; font-weight: bold; color: #1F4E78; margin-bottom: 5px; }
+        .subtitle { font-size: 14pt; color: #2F75B5; margin-bottom: 15px; }
+        .info-table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        .info-table td { padding: 5px; border: 1px solid #BFBFBF; }
+        .info-label { font-weight: bold; background-color: #E6E6E6; width: 120px; }
+        .month-section { margin-bottom: 30px; page-break-inside: avoid; }
+        .month-title { font-size: 14pt; font-weight: bold; color: #548235; background-color: #E2EFDA; padding: 8px; border-left: 4px solid #548235; margin-bottom: 15px; }
+        .subcategory-section { margin-bottom: 20px; }
+        .subcategory-title { font-size: 12pt; font-weight: bold; color: #823535; background-color: #FCE4D6; padding: 6px; border-left: 3px solid #823535; margin-bottom: 10px; }
+        .data-table { width: 100%; border-collapse: collapse; margin-bottom: 15px; }
+        .data-table th { background-color: #4472C4; color: white; font-weight: bold; padding: 8px; border: 1px solid #5B5B5B; text-align: center; }
+        .data-table td { padding: 6px; border: 1px solid #BFBFBF; vertical-align: top; }
+        .total-row { font-weight: bold; background-color: #D9E1F2; }
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        .number-format { mso-number-format: "#,##0"; }
+        .date-format { mso-number-format: "dd-mmm-yyyy"; }
+        .footer { margin-top: 30px; font-style: italic; color: #7F7F7F; text-align: right; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="title">LAPORAN KEUANGAN TERSTRUKTUR</div>
+        <div class="subtitle">SHEET 2 - PENGELOMPOKAN DATA</div>
+    </div>
+
+    <table class="info-table">
+        <tr>
+            <td class="info-label">Periode Laporan:</td>
+            <td>01 January 2025 s/d 31 December 2025</td>
+        </tr>
+                        <tr>
+            <td class="info-label">Tanggal Export:</td>
+            <td>25-08-2025 11:06:46</td>
+        </tr>
+        <tr>
+            <td class="info-label">Jumlah Data:</td>
+            <td>
+                31 transaksi            </td>
+        </tr>
+        <tr>
+            <td class="info-label">Total Nilai:</td>
+            <td>Rp 48.050.000</td>
+        </tr>
+    </table>
+
+                        <div style="font-size: 16pt; font-weight: bold; color: #2F75B5; margin: 25px 0 15px 0; padding-bottom: 5px; border-bottom: 2px solid #2F75B5;">
+                JURNAL: Pengeluaran Jemaat            </div>
+                                                        <div class="month-section">
+                    <div class="month-title">AUGUST 2025</div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                700.01.01 - Gaji Pendeta Pimpinan 
+                                <span style="font-weight: normal; font-style: italic;">(700 - Administrasi Gereja)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">01-08-2025</td>
+                                            <td>PJ001</td>
+                                            <td>Gaji Pendeta Pimpinan</td>
+                                            <td class="text-right number-format">5.000.000</td>
+                                            <td class="text-center">700.01.01 - Gaji Pendeta Pimpinan</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 700.01.01 - Gaji Pendeta Pimpinan:</td>
+                                        <td class="text-right number-format">5.000.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                700.02.01 - ATK Kantor Reguler 
+                                <span style="font-weight: normal; font-style: italic;">(700 - Administrasi Gereja)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">01-08-2025</td>
+                                            <td>PJ002</td>
+                                            <td>ATK Kantor Reguler</td>
+                                            <td class="text-right number-format">250.000</td>
+                                            <td class="text-center">700.02.01 - ATK Kantor Reguler</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 700.02.01 - ATK Kantor Reguler:</td>
+                                        <td class="text-right number-format">250.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                700.03.01 - Listrik dan Air 
+                                <span style="font-weight: normal; font-style: italic;">(700 - Administrasi Gereja)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">05-08-2025</td>
+                                            <td>PJ003</td>
+                                            <td>Listrik dan Air</td>
+                                            <td class="text-right number-format">750.000</td>
+                                            <td class="text-center">700.03.01 - Listrik dan Air</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 700.03.01 - Listrik dan Air:</td>
+                                        <td class="text-right number-format">750.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                710.01.01 - Konsumsi Rapat Mingguan 
+                                <span style="font-weight: normal; font-style: italic;">(710 - Operasional Harian)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">10-08-2025</td>
+                                            <td>PJ004</td>
+                                            <td>Konsumsi Rapat Mingguan</td>
+                                            <td class="text-right number-format">350.000</td>
+                                            <td class="text-center">710.01.01 - Konsumsi Rapat Mingguan</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 710.01.01 - Konsumsi Rapat Mingguan:</td>
+                                        <td class="text-right number-format">350.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                710.02.01 - Transportasi Lokal 
+                                <span style="font-weight: normal; font-style: italic;">(710 - Operasional Harian)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">15-08-2025</td>
+                                            <td>PJ005</td>
+                                            <td>Transportasi Lokal</td>
+                                            <td class="text-right number-format">200.000</td>
+                                            <td class="text-center">710.02.01 - Transportasi Lokal</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 710.02.01 - Transportasi Lokal:</td>
+                                        <td class="text-right number-format">200.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                720.01.02 - Cat Gedung Interior 
+                                <span style="font-weight: normal; font-style: italic;">(720 - Pemeliharaan Gedung)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">20-08-2025</td>
+                                            <td>PJ006</td>
+                                            <td>Cat Gedung Interior</td>
+                                            <td class="text-right number-format">1.200.000</td>
+                                            <td class="text-center">720.01.02 - Cat Gedung Interior</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 720.01.02 - Cat Gedung Interior:</td>
+                                        <td class="text-right number-format">1.200.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                720.02.01 - Perbaikan Kursi Reguler 
+                                <span style="font-weight: normal; font-style: italic;">(720 - Pemeliharaan Gedung)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">25-08-2025</td>
+                                            <td>PJ007</td>
+                                            <td>Perbaikan Kursi Reguler</td>
+                                            <td class="text-right number-format">450.000</td>
+                                            <td class="text-center">720.02.01 - Perbaikan Kursi Reguler</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 720.02.01 - Perbaikan Kursi Reguler:</td>
+                                        <td class="text-right number-format">450.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                                            <div style="margin-top: 15px;">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="width: 70%; text-align: right; font-weight: bold; font-size: 11pt;">TOTAL AUGUST 2025:</td>
+                                <td style="width: 15%; text-align: right; font-weight: bold; font-size: 11pt; border-top: 2px solid #5B5B5B; border-bottom: 2px double #5B5B5B;" class="number-format">8.200.000</td>
+                                <td style="width: 15%;"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                                <div style="font-size: 16pt; font-weight: bold; color: #2F75B5; margin: 25px 0 15px 0; padding-bottom: 5px; border-bottom: 2px solid #2F75B5;">
+                JURNAL: JURNAL PENERIMAAN &amp; PENGELUARAN JEMAAT di Bank Mandiri            </div>
+                                                        <div class="month-section">
+                    <div class="month-title">AUGUST 2025</div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                201.01.001 - ATK dan Keperluan Kantor 
+                                <span style="font-weight: normal; font-style: italic;">(201 - Operasional Mandiri)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">03-08-2025</td>
+                                            <td>PPJBM001</td>
+                                            <td>ATK dan Keperluan Kantor</td>
+                                            <td class="text-right number-format">450.000</td>
+                                            <td class="text-center">201.01.001 - ATK dan Keperluan Kantor</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 201.01.001 - ATK dan Keperluan Kantor:</td>
+                                        <td class="text-right number-format">450.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                201.02.001 - Listrik dan Air 
+                                <span style="font-weight: normal; font-style: italic;">(201 - Operasional Mandiri)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">06-08-2025</td>
+                                            <td>PPJBM002</td>
+                                            <td>Listrik dan Air</td>
+                                            <td class="text-right number-format">550.000</td>
+                                            <td class="text-center">201.02.001 - Listrik dan Air</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 201.02.001 - Listrik dan Air:</td>
+                                        <td class="text-right number-format">550.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                401.01.001 - Kegiatan Pelayanan Minggu 
+                                <span style="font-weight: normal; font-style: italic;">(401 - Pelayanan Mandiri)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">09-08-2025</td>
+                                            <td>PPJBM003</td>
+                                            <td>Kegiatan Pelayanan Minggu</td>
+                                            <td class="text-right number-format">300.000</td>
+                                            <td class="text-center">401.01.001 - Kegiatan Pelayanan Minggu</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 401.01.001 - Kegiatan Pelayanan Minggu:</td>
+                                        <td class="text-right number-format">300.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                601.01.001 - Perawatan Gedung 
+                                <span style="font-weight: normal; font-style: italic;">(601 - Pemeliharaan Mandiri)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">13-08-2025</td>
+                                            <td>PPJBM004</td>
+                                            <td>Perawatan Gedung</td>
+                                            <td class="text-right number-format">850.000</td>
+                                            <td class="text-center">601.01.001 - Perawatan Gedung</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 601.01.001 - Perawatan Gedung:</td>
+                                        <td class="text-right number-format">850.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                801.01.001 - Kegiatan Remaja 
+                                <span style="font-weight: normal; font-style: italic;">(801 - Kegiatan Jemaat Mandiri)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">17-08-2025</td>
+                                            <td>PPJBM005</td>
+                                            <td>Kegiatan Remaja</td>
+                                            <td class="text-right number-format">400.000</td>
+                                            <td class="text-center">801.01.001 - Kegiatan Remaja</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 801.01.001 - Kegiatan Remaja:</td>
+                                        <td class="text-right number-format">400.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                801.02.001 - Kegiatan Ibu-ibu 
+                                <span style="font-weight: normal; font-style: italic;">(801 - Kegiatan Jemaat Mandiri)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">20-08-2025</td>
+                                            <td>PPJBM006</td>
+                                            <td>Kegiatan Ibu-ibu</td>
+                                            <td class="text-right number-format">350.000</td>
+                                            <td class="text-center">801.02.001 - Kegiatan Ibu-ibu</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 801.02.001 - Kegiatan Ibu-ibu:</td>
+                                        <td class="text-right number-format">350.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                801.03.01g - Kegiatan Pemuda 
+                                <span style="font-weight: normal; font-style: italic;">(801 - Kegiatan Jemaat Mandiri)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">24-08-2025</td>
+                                            <td>PPJBM007</td>
+                                            <td>Kegiatan Pemuda</td>
+                                            <td class="text-right number-format">500.000</td>
+                                            <td class="text-center">801.03.01g - Kegiatan Pemuda</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 801.03.01g - Kegiatan Pemuda:</td>
+                                        <td class="text-right number-format">500.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                801.04.01h - Kegiatan Lansia 
+                                <span style="font-weight: normal; font-style: italic;">(801 - Kegiatan Jemaat Mandiri)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">27-08-2025</td>
+                                            <td>PPJBM008</td>
+                                            <td>Kegiatan Lansia</td>
+                                            <td class="text-right number-format">300.000</td>
+                                            <td class="text-center">801.04.01h - Kegiatan Lansia</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 801.04.01h - Kegiatan Lansia:</td>
+                                        <td class="text-right number-format">300.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                                            <div style="margin-top: 15px;">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="width: 70%; text-align: right; font-weight: bold; font-size: 11pt;">TOTAL AUGUST 2025:</td>
+                                <td style="width: 15%; text-align: right; font-weight: bold; font-size: 11pt; border-top: 2px solid #5B5B5B; border-bottom: 2px double #5B5B5B;" class="number-format">3.700.000</td>
+                                <td style="width: 15%;"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                                <div style="font-size: 16pt; font-weight: bold; color: #2F75B5; margin: 25px 0 15px 0; padding-bottom: 5px; border-bottom: 2px solid #2F75B5;">
+                JURNAL: Penerimaan Jemaat            </div>
+                                                        <div class="month-section">
+                    <div class="month-title">AUGUST 2025</div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                100.01.01 - Persembahan Minggu Pagi 
+                                <span style="font-weight: normal; font-style: italic;">(100 - Persembahan Rutin)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">04-08-2025</td>
+                                            <td>PRJ001</td>
+                                            <td>Persembahan Minggu Pagi</td>
+                                            <td class="text-right number-format">2.500.000</td>
+                                            <td class="text-center">100.01.01 - Persembahan Minggu Pagi</td>
+                                        </tr>
+                                                                            <tr>
+                                            <td class="text-center date-format">11-08-2025</td>
+                                            <td>PRJ003</td>
+                                            <td>Persembahan Minggu Pagi</td>
+                                            <td class="text-right number-format">2.700.000</td>
+                                            <td class="text-center">100.01.01 - Persembahan Minggu Pagi</td>
+                                        </tr>
+                                                                            <tr>
+                                            <td class="text-center date-format">18-08-2025</td>
+                                            <td>PRJ005</td>
+                                            <td>Persembahan Minggu Pagi</td>
+                                            <td class="text-right number-format">3.000.000</td>
+                                            <td class="text-center">100.01.01 - Persembahan Minggu Pagi</td>
+                                        </tr>
+                                                                            <tr>
+                                            <td class="text-center date-format">25-08-2025</td>
+                                            <td>PRJ007</td>
+                                            <td>Persembahan Minggu Pagi</td>
+                                            <td class="text-right number-format">3.200.000</td>
+                                            <td class="text-center">100.01.01 - Persembahan Minggu Pagi</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 100.01.01 - Persembahan Minggu Pagi:</td>
+                                        <td class="text-right number-format">11.400.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                100.01.02 - Persembahan Minggu Sore 
+                                <span style="font-weight: normal; font-style: italic;">(100 - Persembahan Rutin)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">04-08-2025</td>
+                                            <td>PRJ002</td>
+                                            <td>Persembahan Minggu Sore</td>
+                                            <td class="text-right number-format">1.800.000</td>
+                                            <td class="text-center">100.01.02 - Persembahan Minggu Sore</td>
+                                        </tr>
+                                                                            <tr>
+                                            <td class="text-center date-format">11-08-2025</td>
+                                            <td>PRJ004</td>
+                                            <td>Persembahan Minggu Sore</td>
+                                            <td class="text-right number-format">1.900.000</td>
+                                            <td class="text-center">100.01.02 - Persembahan Minggu Sore</td>
+                                        </tr>
+                                                                            <tr>
+                                            <td class="text-center date-format">18-08-2025</td>
+                                            <td>PRJ006</td>
+                                            <td>Persembahan Minggu Sore</td>
+                                            <td class="text-right number-format">2.100.000</td>
+                                            <td class="text-center">100.01.02 - Persembahan Minggu Sore</td>
+                                        </tr>
+                                                                            <tr>
+                                            <td class="text-center date-format">25-08-2025</td>
+                                            <td>PRJ008</td>
+                                            <td>Persembahan Minggu Sore</td>
+                                            <td class="text-right number-format">2.200.000</td>
+                                            <td class="text-center">100.01.02 - Persembahan Minggu Sore</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 100.01.02 - Persembahan Minggu Sore:</td>
+                                        <td class="text-right number-format">8.000.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                                            <div style="margin-top: 15px;">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="width: 70%; text-align: right; font-weight: bold; font-size: 11pt;">TOTAL AUGUST 2025:</td>
+                                <td style="width: 15%; text-align: right; font-weight: bold; font-size: 11pt; border-top: 2px solid #5B5B5B; border-bottom: 2px double #5B5B5B;" class="number-format">19.400.000</td>
+                                <td style="width: 15%;"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                                <div style="font-size: 16pt; font-weight: bold; color: #2F75B5; margin: 25px 0 15px 0; padding-bottom: 5px; border-bottom: 2px solid #2F75B5;">
+                JURNAL: Penerimaan Saldo Bank            </div>
+                                                        <div class="month-section">
+                    <div class="month-title">AUGUST 2025</div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                200.01.01 - Transfer dari Bank Mandiri 
+                                <span style="font-weight: normal; font-style: italic;">(200 - Transfer Bank)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">05-08-2025</td>
+                                            <td>PSB001</td>
+                                            <td>Transfer dari Bank Mandiri</td>
+                                            <td class="text-right number-format">5.000.000</td>
+                                            <td class="text-center">200.01.01 - Transfer dari Bank Mandiri</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 200.01.01 - Transfer dari Bank Mandiri:</td>
+                                        <td class="text-right number-format">5.000.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                210.01.01 - Bunga Deposito Bulanan 
+                                <span style="font-weight: normal; font-style: italic;">(210 - Bunga Deposito)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">12-08-2025</td>
+                                            <td>PSB002</td>
+                                            <td>Bunga Deposito Bulanan</td>
+                                            <td class="text-right number-format">750.000</td>
+                                            <td class="text-center">210.01.01 - Bunga Deposito Bulanan</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 210.01.01 - Bunga Deposito Bulanan:</td>
+                                        <td class="text-right number-format">750.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                220.01.01 - Setoran Tunai Mingguan 
+                                <span style="font-weight: normal; font-style: italic;">(220 - Setoran Tunai)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">19-08-2025</td>
+                                            <td>PSB003</td>
+                                            <td>Setoran Tunai Mingguan</td>
+                                            <td class="text-right number-format">3.000.000</td>
+                                            <td class="text-center">220.01.01 - Setoran Tunai Mingguan</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 220.01.01 - Setoran Tunai Mingguan:</td>
+                                        <td class="text-right number-format">3.000.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                240.01.01 - QRIS Persembahan Ibadah Minggu 
+                                <span style="font-weight: normal; font-style: italic;">(240 - QRIS Payment)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">26-08-2025</td>
+                                            <td>PSB004</td>
+                                            <td>QRIS Persembahan Ibadah</td>
+                                            <td class="text-right number-format">1.500.000</td>
+                                            <td class="text-center">240.01.01 - QRIS Persembahan Ibadah Minggu</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 240.01.01 - QRIS Persembahan Ibadah Minggu:</td>
+                                        <td class="text-right number-format">1.500.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                                            <div style="margin-top: 15px;">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="width: 70%; text-align: right; font-weight: bold; font-size: 11pt;">TOTAL AUGUST 2025:</td>
+                                <td style="width: 15%; text-align: right; font-weight: bold; font-size: 11pt; border-top: 2px solid #5B5B5B; border-bottom: 2px double #5B5B5B;" class="number-format">10.250.000</td>
+                                <td style="width: 15%;"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                                <div style="font-size: 16pt; font-weight: bold; color: #2F75B5; margin: 25px 0 15px 0; padding-bottom: 5px; border-bottom: 2px solid #2F75B5;">
+                JURNAL: Penerimaan GSG            </div>
+                                                        <div class="month-section">
+                    <div class="month-title">AUGUST 2025</div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                300.01.01 - Iuran Anggota Bulanan 
+                                <span style="font-weight: normal; font-style: italic;">(300 - Iuran Anggota GSG)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">07-08-2025</td>
+                                            <td>PGSG001</td>
+                                            <td>Iuran Anggota Bulanan</td>
+                                            <td class="text-right number-format">2.000.000</td>
+                                            <td class="text-center">300.01.01 - Iuran Anggota Bulanan</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 300.01.01 - Iuran Anggota Bulanan:</td>
+                                        <td class="text-right number-format">2.000.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                310.01.01 - Donasi Pribadi Jemaat 
+                                <span style="font-weight: normal; font-style: italic;">(310 - Donasi GSG)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">14-08-2025</td>
+                                            <td>PGSG002</td>
+                                            <td>Donasi Pribadi Jemaat</td>
+                                            <td class="text-right number-format">1.200.000</td>
+                                            <td class="text-center">310.01.01 - Donasi Pribadi Jemaat</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 310.01.01 - Donasi Pribadi Jemaat:</td>
+                                        <td class="text-right number-format">1.200.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                320.01.01 - Penjualan Kaos GSG 
+                                <span style="font-weight: normal; font-style: italic;">(320 - Penjualan Merchandise)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">21-08-2025</td>
+                                            <td>PGSG003</td>
+                                            <td>Penjualan Kaos GSG</td>
+                                            <td class="text-right number-format">800.000</td>
+                                            <td class="text-center">320.01.01 - Penjualan Kaos GSG</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 320.01.01 - Penjualan Kaos GSG:</td>
+                                        <td class="text-right number-format">800.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                            <div class="subcategory-section">
+                            <div class="subcategory-title">
+                                330.01.01 - Sponsor Bank 
+                                <span style="font-weight: normal; font-style: italic;">(330 - Sponsor Kegiatan)</span>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th width="15%">Tanggal</th>
+                                        <th width="20%">No. Kwitansi</th>
+                                        <th width="40%">Uraian</th>
+                                        <th width="15%">Kas</th>
+                                        <th width="10%">Kode Subkategori</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="text-center date-format">28-08-2025</td>
+                                            <td>PGSG004</td>
+                                            <td>Sponsor Bank</td>
+                                            <td class="text-right number-format">2.500.000</td>
+                                            <td class="text-center">330.01.01 - Sponsor Bank</td>
+                                        </tr>
+                                                                        <tr class="total-row">
+                                        <td colspan="3" class="text-right">Total 330.01.01 - Sponsor Bank:</td>
+                                        <td class="text-right number-format">2.500.000</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                                            <div style="margin-top: 15px;">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="width: 70%; text-align: right; font-weight: bold; font-size: 11pt;">TOTAL AUGUST 2025:</td>
+                                <td style="width: 15%; text-align: right; font-weight: bold; font-size: 11pt; border-top: 2px solid #5B5B5B; border-bottom: 2px double #5B5B5B;" class="number-format">6.500.000</td>
+                                <td style="width: 15%;"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                            <div style="margin-top: 30px; page-break-before: avoid;">
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width: 70%; text-align: right; font-weight: bold; font-size: 12pt; color: #C55A11;">TOTAL KESELURUHAN:</td>
+                    <td style="width: 15%; text-align: right; font-weight: bold; font-size: 12pt; color: #C55A11; border-top: 2px solid #C55A11; border-bottom: 3px double #C55A11;" class="number-format">48.050.000</td>
+                    <td style="width: 15%;"></td>
+                </tr>
+            </table>
+        </div>
+    
+    <div class="footer">Dokumen ini dihasilkan secara otomatis pada 25 August 2025 11:06:46 dari Sistem Laporan Keuangan</div>
+</body>
+</html>
+
+
